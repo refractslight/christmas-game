@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 19693897}
   - component: {fileID: 19693899}
   - component: {fileID: 19693898}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Rotate Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 47685407}
   - component: {fileID: 47685406}
   - component: {fileID: 47685405}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: OnButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 75362941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.31, y: 1.93, z: -2.438}
+  m_LocalPosition: {x: -0.31, y: 1.93, z: -1.841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 501274483}
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 101966183}
   - component: {fileID: 101966185}
   - component: {fileID: 101966184}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 102094374}
   - component: {fileID: 102094376}
   - component: {fileID: 102094375}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 183777610}
   - component: {fileID: 183777612}
   - component: {fileID: 183777611}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 193759921}
   - component: {fileID: 193759923}
   - component: {fileID: 193759922}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 224018927}
   - component: {fileID: 224018929}
   - component: {fileID: 224018928}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 233174904}
   - component: {fileID: 233174906}
   - component: {fileID: 233174905}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1073,7 +1073,7 @@ GameObject:
   - component: {fileID: 318076910}
   - component: {fileID: 318076909}
   - component: {fileID: 318076908}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: OffButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 375388114}
   - component: {fileID: 375388113}
   - component: {fileID: 375388112}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Candy Canes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1359,7 +1359,7 @@ GameObject:
   - component: {fileID: 429907752}
   - component: {fileID: 429907751}
   - component: {fileID: 429907750}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: StopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1601,7 +1601,7 @@ GameObject:
   - component: {fileID: 646372892}
   - component: {fileID: 646372891}
   - component: {fileID: 646372890}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1711,7 +1711,7 @@ GameObject:
   - component: {fileID: 830944662}
   - component: {fileID: 830944664}
   - component: {fileID: 830944663}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1787,7 +1787,7 @@ GameObject:
   - component: {fileID: 840442262}
   - component: {fileID: 840442264}
   - component: {fileID: 840442263}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +1863,7 @@ GameObject:
   - component: {fileID: 877819524}
   - component: {fileID: 877819526}
   - component: {fileID: 877819525}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: On
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 904983675}
   - component: {fileID: 904983677}
   - component: {fileID: 904983676}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 1036685590}
   - component: {fileID: 1036685589}
   - component: {fileID: 1036685588}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2161,7 +2161,7 @@ GameObject:
   - component: {fileID: 1055703973}
   - component: {fileID: 1055703975}
   - component: {fileID: 1055703974}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2267,7 +2267,7 @@ GameObject:
   - component: {fileID: 1076516510}
   - component: {fileID: 1076516512}
   - component: {fileID: 1076516511}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2377,6 +2377,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 114248, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
   m_IsPrefabParent: 0
@@ -2391,7 +2395,7 @@ GameObject:
   - component: {fileID: 1131314741}
   - component: {fileID: 1131314740}
   - component: {fileID: 1131314739}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2484,7 +2488,7 @@ GameObject:
   - component: {fileID: 1155564646}
   - component: {fileID: 1155564648}
   - component: {fileID: 1155564647}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2573,7 +2577,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180754728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.32, z: -5.51}
+  m_LocalPosition: {x: 0, y: 3.32, z: -6.81}
   m_LocalScale: {x: 11.7011795, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 1067834278}
@@ -2709,6 +2713,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1463902, y: 6.758559, z: 2.3135538}
   m_Center: {x: -0.09329823, y: 3.4198673, z: -0.01804689}
+--- !u!54 &1222697940
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1222697933}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1314596717
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,7 +2738,7 @@ GameObject:
   - component: {fileID: 1314596718}
   - component: {fileID: 1314596720}
   - component: {fileID: 1314596719}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2880,7 +2899,7 @@ GameObject:
   - component: {fileID: 1373243945}
   - component: {fileID: 1373243944}
   - component: {fileID: 1373243943}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Gift 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3006,7 +3025,7 @@ Transform:
   m_GameObject: {fileID: 1391926207}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 5.61, y: 3.32, z: -0.11}
-  m_LocalScale: {x: 11.7011795, y: 7, z: 1}
+  m_LocalScale: {x: 15.412474, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 1067834278}
   m_RootOrder: 2
@@ -3075,7 +3094,7 @@ GameObject:
   - component: {fileID: 1418130691}
   - component: {fileID: 1418130690}
   - component: {fileID: 1418130689}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Gingerbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3200,7 +3219,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1460232370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.32, z: 5.63}
+  m_LocalPosition: {x: 0, y: 3.32, z: 7.68}
   m_LocalScale: {x: 11.70118, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 1067834278}
@@ -3397,7 +3416,7 @@ GameObject:
   - component: {fileID: 1547759761}
   - component: {fileID: 1547759763}
   - component: {fileID: 1547759762}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Projectiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3551,7 +3570,7 @@ GameObject:
   - component: {fileID: 1599098714}
   - component: {fileID: 1599098713}
   - component: {fileID: 1599098712}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3814,7 +3833,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1741829455
 MeshRenderer:
@@ -3879,7 +3898,7 @@ Transform:
   m_GameObject: {fileID: 1741829454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2374803, y: 1, z: 1.6556782}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -3895,7 +3914,7 @@ GameObject:
   - component: {fileID: 1747325254}
   - component: {fileID: 1747325253}
   - component: {fileID: 1747325252}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4078,7 +4097,7 @@ Transform:
   m_GameObject: {fileID: 1892546401}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -5.58, y: 3.32, z: -0.11}
-  m_LocalScale: {x: 11.701183, y: 7, z: 1.0000005}
+  m_LocalScale: {x: 15.930632, y: 7, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1067834278}
   m_RootOrder: 3
@@ -4147,7 +4166,7 @@ GameObject:
   - component: {fileID: 1914392611}
   - component: {fileID: 1914392610}
   - component: {fileID: 1914392609}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Gift 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4258,7 +4277,7 @@ GameObject:
   - component: {fileID: 1979842047}
   - component: {fileID: 1979842046}
   - component: {fileID: 1979842045}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Mini Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
