@@ -31,25 +31,5 @@ public class gun : MonoBehaviour {
 		Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
 		thisrb.velocity = transform.forward * shootForce;
 	}
-	public void candyCaneProjectile(){
-		GameObject bullet = candyCane;
-
-	}
-	public void gift1Projectile(){
-		GameObject bullet = gift1;
-	}
-
-	public void gift2Projectile(){
-		GameObject bullet = gift2;
-	}
-	public void gingerbreadProjectile(){
-		GameObject bullet = gingerbread;
-	}
-	public void lightsProjectile(){
-		GameObject bullet = lights;
-	}
-	public void miniTreeProjectile(){
-		GameObject bullet = miniTree;
-	}
 
 }

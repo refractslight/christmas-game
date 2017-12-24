@@ -478,7 +478,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 75362941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.31, y: 1.93, z: -0.41}
+  m_LocalPosition: {x: -1.31, y: 1.93, z: -2.438}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 501274483}
@@ -1206,7 +1206,6 @@ GameObject:
   - component: {fileID: 375388114}
   - component: {fileID: 375388113}
   - component: {fileID: 375388112}
-  - component: {fileID: 375388115}
   m_Layer: 5
   m_Name: Candy Canes
   m_TagString: Untagged
@@ -1271,18 +1270,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 375388113}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 375388115}
-        m_MethodName: candyCaneProjectile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &375388113
@@ -1318,26 +1306,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 375388110}
---- !u!114 &375388115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375388110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f037bc200cc64a7eb2ad26038958731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candyCane: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
-  gift1: {fileID: 130570, guid: 24b4c5dc305499e44b4cdfad4149b9b6, type: 2}
-  gift2: {fileID: 142898, guid: 2c69c93d45f9449488dbb88be91cd0a5, type: 2}
-  gingerbread: {fileID: 168352, guid: 0dbed18940c65fb4f9d8b60721158ed8, type: 2}
-  lights: {fileID: 0}
-  miniTree: {fileID: 0}
-  bullet: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
-  spawnDistance: 0.1
-  shootForce: 7
 --- !u!1001 &417240188
 Prefab:
   m_ObjectHideFlags: 0
@@ -1554,6 +1522,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1802434325}
+  - {fileID: 1706584090}
   m_Father: {fileID: 75362942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2911,7 +2880,6 @@ GameObject:
   - component: {fileID: 1373243945}
   - component: {fileID: 1373243944}
   - component: {fileID: 1373243943}
-  - component: {fileID: 1373243946}
   m_Layer: 5
   m_Name: Gift 1
   m_TagString: Untagged
@@ -2976,18 +2944,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1373243944}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1373243946}
-        m_MethodName: gift1Projectile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1373243944
@@ -3023,26 +2980,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373243941}
---- !u!114 &1373243946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1373243941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f037bc200cc64a7eb2ad26038958731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candyCane: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
-  gift1: {fileID: 130570, guid: 24b4c5dc305499e44b4cdfad4149b9b6, type: 2}
-  gift2: {fileID: 142898, guid: 2c69c93d45f9449488dbb88be91cd0a5, type: 2}
-  gingerbread: {fileID: 168352, guid: 0dbed18940c65fb4f9d8b60721158ed8, type: 2}
-  lights: {fileID: 0}
-  miniTree: {fileID: 0}
-  bullet: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
-  spawnDistance: 0.1
-  shootForce: 7
 --- !u!1 &1391926207
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,6 +3757,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1706584090}
+  - component: {fileID: 1706584091}
   m_Layer: 0
   m_Name: gun
   m_TagString: Untagged
@@ -3837,9 +3775,29 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1802434325}
-  m_RootOrder: 0
+  m_Father: {fileID: 501274483}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706584091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706584089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f037bc200cc64a7eb2ad26038958731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  candyCane: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
+  gift1: {fileID: 0}
+  gift2: {fileID: 0}
+  gingerbread: {fileID: 0}
+  lights: {fileID: 0}
+  miniTree: {fileID: 0}
+  bullet: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
+  spawnDistance: 0.5
+  shootForce: 5
 --- !u!1 &1741829454
 GameObject:
   m_ObjectHideFlags: 0
