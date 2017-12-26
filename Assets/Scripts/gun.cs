@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class gun : MonoBehaviour {
 
-	public GameObject candyCane;
-	public GameObject gift1;
-	public GameObject gift2;
-	public GameObject gingerbread;
-	public GameObject lights;
-	public GameObject miniTree;
 	public GameObject bullet;
 
 	public float spawnDistance = 0.5f;
 	public float shootForce = 5f;
+	public float rotation = 1f;
+
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +26,7 @@ public class gun : MonoBehaviour {
 		GameObject thisBullet = GameObject.Instantiate (bullet, transform.position + (transform.forward * spawnDistance), new Quaternion ());
 		Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
 		thisrb.velocity = transform.forward * shootForce;
+		thisrb.angularVelocity = new Vector3 (Random.value, Random.value, Random.value) * rotation;
 	}
 
 }
