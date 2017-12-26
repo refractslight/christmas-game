@@ -5,6 +5,7 @@ using UnityEngine;
 public class gun : MonoBehaviour {
 
 	public GameObject bullet;
+	public GameObject origin;
 
 	public float spawnDistance = 0.5f;
 	public float shootForce = 5f;
@@ -33,13 +34,21 @@ public class gun : MonoBehaviour {
 	}
 
 	public void Gift1 () {
-		bullet = GameObject.Find ("Gift_Box_1");
-		gunEnabled = true;
+		if (bullet.CompareTag ("gift1")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("gift1");
+		}
 	}
 
 	public void candyCanes () {
-		bullet = GameObject.Find ("Candy_Cane");
-		gunEnabled = true;
+		if (bullet.CompareTag ("candycane")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("candycane");
+		}
 	}
 	public void off () {
 		gunEnabled = false;
