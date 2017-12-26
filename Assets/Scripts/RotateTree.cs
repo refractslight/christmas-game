@@ -17,17 +17,8 @@ public class RotateTree : MonoBehaviour {
 		}
 	}
 
-	/*public void RotateRight(){
-		transform.Rotate (0, 1, 0);
-	}
-	public void RotateLeft(){
-		transform.Rotate (0, -1, 0);
-
-	}*/
 
 	public void StartRotation(){
-		//transform.Rotate (0, speed * Time.deltaTime, 0, Space.Self);
-		//transform.Rotate(Vector3.up, speed * Time.deltaTime);
 		isRotating = true;
 	}
 	public void StopRotation(){
