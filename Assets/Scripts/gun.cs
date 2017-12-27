@@ -15,7 +15,7 @@ public class gun : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		gunEnabled = false;
 	}
 	
 	// Update is called once per frame
@@ -51,6 +51,42 @@ public class gun : MonoBehaviour {
 		}
 	}
 	public void off () {
+		bullet = GameObject.FindGameObjectWithTag("null");
 		gunEnabled = false;
+
+	}
+	public void gift2 () {
+		if (bullet.CompareTag ("gift2")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("gift2");
+		}
+	}
+	public void gingerbread () {
+		if (bullet.CompareTag ("gingerbread")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("gingerbread");
+		}
+	}
+
+	public void minitree () {
+		if (bullet.CompareTag ("minitree")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("minitree");
+		}
+	}
+
+	public void santahat () {
+		if (bullet.CompareTag ("santahat")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("santahat");
+		}
 	}
 }
