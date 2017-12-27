@@ -2150,6 +2150,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 122006, guid: 5f8ab9c7ee6dbd043b21535eae1b7a37, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f8ab9c7ee6dbd043b21535eae1b7a37, type: 2}
   m_IsPrefabParent: 0
@@ -2904,6 +2908,10 @@ Prefab:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 163396, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 150846, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -4781,7 +4789,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4858,7 +4866,7 @@ MonoBehaviour:
   bullet: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
   origin: {fileID: 1706584089}
   spawnDistance: 0.5
-  shootForce: 5
+  shootForce: 8
   rotation: 1
   gunEnabled: 0
 --- !u!1 &1741829454
