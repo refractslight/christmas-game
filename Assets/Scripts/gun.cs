@@ -20,7 +20,7 @@ public class gun : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(gunEnabled = true) {
+		if(gunEnabled == true) {
 			if (Input.GetButtonDown ("Fire1")) {
 				shoot ();
 			}
