@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -530,7 +530,7 @@ Transform:
   - {fileID: 1222697937}
   - {fileID: 995212383}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &57597076
 Prefab:
@@ -622,7 +622,7 @@ Transform:
   m_Children:
   - {fileID: 501274483}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101966182
 GameObject:
@@ -864,8 +864,9 @@ Transform:
   - {fileID: 983426150}
   - {fileID: 881131642}
   - {fileID: 1823409068}
+  - {fileID: 2064966148}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &183777609
 GameObject:
@@ -1584,7 +1585,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 2}
@@ -1626,7 +1627,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478980, guid: e9f8371a79efcfc459039529b9a20ebb, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 478980, guid: e9f8371a79efcfc459039529b9a20ebb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2755,7 +2756,7 @@ Transform:
   - {fileID: 1892546402}
   - {fileID: 2097207949}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076516509
 GameObject:
@@ -2865,7 +2866,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435620, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 435620, guid: a683bfbbfaf93ca46beefd0d0ca19b1f, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3005,7 +3006,7 @@ RectTransform:
   m_Children:
   - {fileID: 1076516510}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3283,7 +3284,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
@@ -3524,7 +3525,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1373243941
 GameObject:
@@ -3859,7 +3860,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 182718215}
     m_Modifications:
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_LocalPosition.x
@@ -3875,15 +3876,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_LocalRotation.w
@@ -3891,7 +3892,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2aa58e98e281034995128f2341055c3, type: 2}
@@ -4789,7 +4790,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4953,7 +4954,7 @@ Transform:
   m_LocalScale: {x: 1.2374803, y: 1, z: 1.6556782}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1747325250
 GameObject:
@@ -5122,7 +5123,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
@@ -5536,6 +5537,10 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &2064966148 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 467084, guid: a2aa58e98e281034995128f2341055c3, type: 2}
+  m_PrefabInternal: {fileID: 1453793040}
 --- !u!1001 &2078139263
 Prefab:
   m_ObjectHideFlags: 0
@@ -5573,7 +5578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491480, guid: f701b8991a622f7418a3e95a79cb752a, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 491480, guid: f701b8991a622f7418a3e95a79cb752a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
