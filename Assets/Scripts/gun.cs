@@ -27,66 +27,101 @@ public class gun : MonoBehaviour {
 		}
 	}
 	public void shoot () {
-		GameObject thisBullet = GameObject.Instantiate (bullet, transform.position + (transform.forward * spawnDistance), new Quaternion ());
-		Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
-		thisrb.velocity = transform.forward * shootForce;
-		thisrb.angularVelocity = new Vector3 (Random.value, Random.value, Random.value) * rotation;
+		if (bullet.CompareTag ("ornament")) {
+			new Color (Random.value, Random.value, Random.value);
+			GameObject thisBullet = GameObject.Instantiate (bullet, transform.position + (transform.forward * spawnDistance), new Quaternion ());
+			Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
+			thisrb.velocity = transform.forward * shootForce;
+			thisrb.angularVelocity = new Vector3 (Random.value, Random.value, Random.value) * rotation;
+		} 
+
+		else {
+			GameObject thisBullet = GameObject.Instantiate (bullet, transform.position + (transform.forward * spawnDistance), new Quaternion ());
+			Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
+			thisrb.velocity = transform.forward * shootForce;
+			thisrb.angularVelocity = new Vector3 (Random.value, Random.value, Random.value) * rotation;
+		//Debug.Log ("shoot");
+		}
 	}
 
 	public void Gift1 () {
 		if (bullet.CompareTag ("gift1")) {
-			gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("gift1");
 		}
+		gunEnabled = true;
 	}
 
 	public void candyCanes () {
 		if (bullet.CompareTag ("candycane")) {
-			gunEnabled = true;
+			//gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("candycane");
+
 		}
+		gunEnabled = true;
+
 	}
 	public void off () {
-		bullet = GameObject.FindGameObjectWithTag("null");
-		gunEnabled = false;
+			gunEnabled = false;
 
 	}
 	public void gift2 () {
 		if (bullet.CompareTag ("gift2")) {
-			gunEnabled = true;
+			//gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("gift2");
 		}
+		gunEnabled = true;
 	}
 	public void gingerbread () {
 		if (bullet.CompareTag ("gingerbread")) {
-			gunEnabled = true;
+			//gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("gingerbread");
 		}
+		gunEnabled = true;
 	}
 
 	public void minitree () {
 		if (bullet.CompareTag ("minitree")) {
-			gunEnabled = true;
+			//gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("minitree");
 		}
+		gunEnabled = true;
 	}
 
 	public void santahat () {
 		if (bullet.CompareTag ("santahat")) {
-			gunEnabled = true;
+			//gunEnabled = true;
 		} 
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("santahat");
+		}
+		gunEnabled = true;
+	}
+
+//	public void wreath () {
+//		if (bullet.CompareTag ("wreath")) {
+//			gunEnabled = true;
+//		} 
+//
+//		else {
+//			bullet = GameObject.FindGameObjectWithTag ("wreath");
+//		}
+//	}
+	public void ornament () {
+		if (bullet.CompareTag ("ornament")) {
+			gunEnabled = true;
+		} 
+		else {
+			bullet = GameObject.FindGameObjectWithTag ("ornament");
 		}
 	}
 }
