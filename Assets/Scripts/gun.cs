@@ -28,8 +28,9 @@ public class gun : MonoBehaviour {
 	}
 	public void shoot () {
 		if (bullet.CompareTag ("ornament")) {
-			new Color (Random.value, Random.value, Random.value);
+			Color newColor = new Color(Random.value, Random.value, Random.value);
 			GameObject thisBullet = GameObject.Instantiate (bullet, transform.position + (transform.forward * spawnDistance), new Quaternion ());
+			thisBullet.GetComponent<MeshRenderer> ().material.color = newColor;
 			Rigidbody thisrb = thisBullet.GetComponent<Rigidbody> ();
 			thisrb.velocity = transform.forward * shootForce;
 			thisrb.angularVelocity = new Vector3 (Random.value, Random.value, Random.value) * rotation;
@@ -123,5 +124,6 @@ public class gun : MonoBehaviour {
 		else {
 			bullet = GameObject.FindGameObjectWithTag ("ornament");
 		}
+		gunEnabled = true;
 	}
 }

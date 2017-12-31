@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 39600223}
   m_Layer: 2
   m_Name: Star
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -960,7 +960,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 126534463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5350647, y: -251.70004, z: 0.000021095397}
+  m_LocalPosition: {x: -0.5350647, y: -292.6, z: 0.000021095397}
   m_LocalScale: {x: 0.7717294, y: 1.1378593, z: 0.77155036}
   m_Children:
   - {fileID: 1901865429}
@@ -969,7 +969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.53506804, y: -251.70004}
+  m_AnchoredPosition: {x: -0.53506804, y: -292.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126534465
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1706584091}
-        m_MethodName: santahat
+        m_MethodName: ornament
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1146,6 +1146,7 @@ Transform:
   - {fileID: 881131642}
   - {fileID: 1823409068}
   - {fileID: 1340216799}
+  - {fileID: 251799430}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1380,6 +1381,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 193759920}
+--- !u!1001 &202043678
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.1083965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.7435107
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677241300209000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a4310591ce7a1594caf8d57b8c70998a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &224018926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,6 +1575,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233174903}
+--- !u!4 &251799430 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
+  m_PrefabInternal: {fileID: 2050220995}
 --- !u!1 &287481882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1790,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 995212382}
         m_MethodName: SetActive
@@ -1754,7 +1801,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1222697933}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -2222,6 +2280,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 995212387}
+        m_MethodName: StopRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &429907751
@@ -2374,7 +2443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &616632406
 Transform:
   m_ObjectHideFlags: 0
@@ -4898,6 +4967,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011147454354, guid: 01d2dd5255c308a4db25dbb77d9f65ea, type: 2}
+      propertyPath: m_TagString
+      value: tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01d2dd5255c308a4db25dbb77d9f65ea, type: 2}
   m_IsPrefabParent: 0
@@ -5122,11 +5195,11 @@ Prefab:
     - target: {fileID: 54223189794337314, guid: 017b8446764d3a840b0ca02d15201294,
         type: 2}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 169872, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 017b8446764d3a840b0ca02d15201294, type: 2}
@@ -5230,6 +5303,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1222697938}
+        m_MethodName: StartRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 995212387}
         m_MethodName: StartRotation
         m_Mode: 1
         m_Arguments:
@@ -6211,7 +6295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Santa Hat
+  m_Text: 'Ornaments
 
 '
 --- !u!222 &1901865431
@@ -6519,7 +6603,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 182718215}
     m_Modifications:
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalPosition.x
@@ -6535,7 +6619,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalRotation.y
@@ -6543,7 +6627,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalRotation.w
@@ -6551,11 +6635,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464756, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f2a321f588cfc7d4cb4c5e702527700b, type: 2}
